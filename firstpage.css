@@ -1,56 +1,44 @@
-.bmw {
-    float:left;
-    width: 30.00%;
-    
-   
-  }
-.porsche{
-    float:left;
-    width: 30.00%;
-    
-   
+/* Parent Container for Logos */
+.logo-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: center; /* Centers items */
+    gap: 100px;  /* Adds space between logos */
+    padding: 50px;
 }
-.audi{
-    float:left;
-    width: 30.00%;
-    
-    
 
+/* Individual Logo Containers */
+.logo-container div {
+    flex: 1 1 calc(25% - 40px); /* Makes logos responsive (4 per row) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px; /* Prevents too small images */
 }
-.cadillac
-{
-    float:left;
-    width: 30.00%;
+
+/* Logo Images */
+.logo-container img {
+    width: 500px; /* Adjust size */
+    height: 500px;
+    transition: transform 0.3s ease-in-out;
 }
-   .toyota
-{
-    float:left;
-    width: 30.00%;
+
+/* Hover Effect */
+.logo-container img:hover {
+    transform: scale(1.1);
 }
-.ford{
-float:left;
-    width: 30.00%;
 
-}     
-.tata{
-    float:left;
-    width: 30.00%;
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+    .logo-container div {
+        flex: 1 1 calc(33.33% - 20px); /* 3 per row */
+    }
+}
 
-} 
-.f{
-    float:left;
-    width: 30.00%;
-
-} 
-.h{
-    float:left;
-    width: 30.00%;
-
-} 
-.fe{
-    float:left;
-    width: 30.00%;
-
-} 
-
+/* Responsive for Mobile */
+@media (max-width: 480px) {
+    .logo-container div {
+        flex: 1 1 calc(50% - 20px); /* 2 per row */
+    }
+}
 
