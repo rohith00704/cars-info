@@ -1,6 +1,6 @@
 /* ---- Global Styles ---- */
 body {
-  background-image: url("https://img.freepik.com/free-vector/lightened-luxury-sedan-car-darkness-with-headlamps-rear-lights-lit-realistic-image-reflection_1284-28803.jpg?t=st=1740031807~exp=1740035407~hmac=a23af24cd7dccd166f9c831aa4fd1ae8d554c89db50ba4192f55351b806ce12b&w=1060");
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/026/992/343/small_2x/classic-modified-car-with-dark-smokie-background-ai-generative-free-photo.jpg");
   background-size: cover;     
   background-position: center; 
   background-repeat: no-repeat; 
@@ -13,7 +13,7 @@ body {
 
 /* ---- Main Login Box ---- */
 .main {
-  background: rgba(141, 135, 135, 0.967); /* Slight transparency */
+  background: rgba(229, 247, 217, 0.967); /* Slight transparency */
   padding: 250px;
   border-radius: 10px;
   border-color: #c00f0f;
